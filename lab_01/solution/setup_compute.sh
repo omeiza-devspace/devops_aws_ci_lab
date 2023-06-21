@@ -56,5 +56,5 @@ echo "No existing container"
 fi
 
 echo "Deploying the updated container"
-sudo docker run -itd -p 80:3000 --name $IMG_NAME $OUTPUT
+sudo docker run -itd -p 3000:3000 --name $IMG_NAME $OUTPUT
 echo "Deploying the container"
